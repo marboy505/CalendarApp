@@ -1,0 +1,58 @@
+/* Import Tailwind's base styles */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+ */
+
+
+/* Add your custom theme colors here */
+@layer theme {
+  .bg-primary {
+    background-color: var(--primary-color);
+  }
+
+  .text-primary {
+    color: var(--primary-color);
+  }
+
+  .bg-secondary {
+    background-color: var(--secondary-color);
+  }
+
+  .text-secondary {
+    color: var(--secondary-color);
+  }
+
+  .text-white {
+    color: var(--white-color);
+  }
+
+  .bg-white {
+    background-color: var(--white-color);
+  }
+
+  .bg-gray-100 {
+    background-color: var(--background-color);
+  }
+
+  /* Custom spacing */
+  .space-xs {
+    margin: var(--space-xs);
+  }
+
+  .space-sm {
+    margin: var(--space-sm);
+  }
+
+  .space-md {
+    margin: var(--space-md);
+  }
+
+  .space-lg {
+    margin: var(--space-lg);
+  }
+
+  .space-xl {
+    margin: var(--space-xl);
+  }
+}

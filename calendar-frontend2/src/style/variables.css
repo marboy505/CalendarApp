@@ -1,0 +1,31 @@
+/* variables.css */
+
+/* Colors */
+:root {
+    --primary-color: #007bff;
+    --primary-dark: #0056b3;
+    --secondary-color: #6c757d;
+    --background-color: #f8f9fa;
+    --text-color: #333;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --border-color: #ddd;
+  }
+  
+  /* Spacing */
+  :root {
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 32px;
+    --space-xl: 64px;
+  }
+  
+  /* Typography */
+  :root {
+    --font-family: 'Inter', sans-serif;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.25rem;
+    --font-size-xl: 2rem;
+  }
+  
